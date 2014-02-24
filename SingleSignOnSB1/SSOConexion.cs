@@ -21,6 +21,7 @@ namespace SingleSignOnSB1
             // by following the steps specified above, the following
             // statment should be suficient for either development or run mode
             sConnectionString = "0030002C0030002C00530041005000420044005F00440061007400650076002C0050004C006F006D0056004900490056";
+            
             // connect to a running SBO Application
             sboGuiApi.Connect(sConnectionString);
 
